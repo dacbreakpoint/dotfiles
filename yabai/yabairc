@@ -1,0 +1,27 @@
+#!/usr/bin/env sh
+
+# General space settings
+yabai -m config layout float
+yabai -m config top_padding 10
+yabai -m config bottom_padding 20
+yabai -m config left_padding 20
+yabai -m config right_padding 20
+yabai -m config window_gap 10
+
+yabai -m config focus_follows_mouse autofocus
+
+# floating windows always stay on top
+yabai -m config window_topmost               on
+
+# float system preferences
+yabai -m rule --add app="^System Preferences$" manage=off
+
+
+# focus window that your mouse hovers on (disabled due to right click bugs)
+yabai -m config focus_follows_mouse          off
+# move mouse to focused window
+yabai -m config mouse_follows_focus          on
+
+yabai -m config mouse_modifier               ctrl
+yabai -m config mouse_action1                move
+yabai -m config mouse_action2                resize
