@@ -79,3 +79,9 @@ cask "microsoft-word"
 cask "microsoft-excel"
 # Presentation software
 cask "microsoft-powerpoint"
+# Time tracker
+cask "activitywatch"
+# Open client for Cisco AnyConnect VPN
+cask "openconnect"
+# Graphical client for Git version control
+cask "sourcetree"
