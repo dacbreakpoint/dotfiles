@@ -19,7 +19,3 @@ sh ./macos/apps.sh
 # zsh plugins
 sh ./zsh/zsh-plugins-downloader.sh
 
-# Symlinks
-## sh symlinks.sh
-
-zsh
