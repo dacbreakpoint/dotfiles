@@ -19,58 +19,47 @@ sudo scutil --set HostName "$COMPUTER_NAME"
 sudo scutil --set LocalHostName "$COMPUTER_NAME"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$COMPUTER_NAME"
 
-# Disable Gatekeeper
-# sudo spctl --master-disable
+
+# Trackpad settings
+
+## Trackpad: Enable 3-finger drag. (Moving with 3 fingers in any window "chrome" moves the window.)
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad  TrackpadThreeFingerDrag -bool true
 
 
-# Main
+## Trackpad: Enable click with tipping
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 
-## Menu bar: show battery percentage
-defaults write com.apple.menuextra.battery ShowPercent YES
+## Trackpad: Enable right click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
 
-## Disable the “Are you sure you want to open this application?” dialog
-defaults write com.apple.LaunchServices LSQuarantine -bool false
 
-# Finder
-
-## Finder: shorter path when in home directory
-defaults write com.apple.finder PathBarRootAtHome -bool true
-
-## Finder: Keep folders on top when sorting by name
-defaults write com.apple.finder _FXSortFoldersFirst -bool true
-
-## Finder: Disable the warning when changing a file extension
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+# Finder settings
 
 ## Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
 
-## Disable the warning when changing a file extension
+## Show all file extensions inside the Finder
+defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true" 
+
+## Finder: Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-## Avoid creating .DS_Store files on network or USB volumes
-defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
-defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+## Finder: Keep folders on top when sorting by name
+defaults write com.apple.finder _FXSortFoldersFirst -bool true
+
+## Finder: Use current directory as default search scope in Finder
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+## Finder: show status bar
+defaults write com.apple.finder ShowStatusBar -bool true
 
 
-# Show the /Volumes folder
-sudo chflags nohidden /Volumes
-
-
-# Safari
-
-## Privacy: don’t send search queries to Apple
-defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-
-## Prevent Safari from opening ‘safe’ files automatically after downloading
-defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
-
-## Disable Forms AutoFill
-defaults write com.apple.Safari AutoFillMiscellaneousForms -bool false
-
-## Enable “Do Not Track”
-defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
-
+# Dock
+# Do not display recent apps in the Dock
+defaults write com.apple.dock "show-recents" -bool "false"
 
 # Refresh
 for app in "Activity Monitor" \
