@@ -1,12 +1,13 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 
 
+#Terminal file manager
+brew "lf"
+#Open source programming language to build simple/reliable/efficient software
+brew "go"
 # GNU grep, egrep and fgrep
 brew "grep"
 # OpenBSD freely-licensed SSH connectivity tools
@@ -19,7 +20,7 @@ brew "ffmpeg"
 cask "krisp"
 # Java-based project management
 brew "maven"
-#Development kit for the Java programming language
+# Development kit for the Java programming language
 brew "openjdk"
 # Improved top (interactive process viewer)
 brew "htop"
@@ -29,6 +30,8 @@ brew "tldr"
 brew "tree"
 #GNU Pretty Good Privacy (PGP) package GPG2
 brew "gnupg"
+# Pinentry for GPG on Mac
+brew "pinetry-mac"
 # Internet file retriever
 brew "wget"
 # Distributed revision control system
@@ -47,8 +50,6 @@ cask "discord"
 cask "raspberry-pi-imager"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# UNIX shell (command interpreter)
-brew "zsh"
 # App to write, plan, collaborate, and get organized
 brew "notion"
 # Desktop sync client for Nextcloud software products
@@ -85,3 +86,5 @@ cask "activitywatch"
 cask "openconnect"
 # Graphical client for Git version control
 cask "sourcetree"
+# Tools to protect your emails and files
+cask "gpg-suite"
