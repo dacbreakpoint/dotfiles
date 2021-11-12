@@ -88,3 +88,5 @@ cask "openconnect"
 cask "sourcetree"
 # Tools to protect your emails and files
 cask "gpg-suite"
+# Email client focusing on privacy protection
+cask "postbox"
