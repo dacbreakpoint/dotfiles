@@ -1,0 +1,11 @@
+[user]
+	email = me@dacbreakpoint.com
+	name = Dennis Acar
+	signingkey = 687592316C3C441B
+[core]
+	autocrlf = input
+[pull]
+	rebase = true
+[commit]
+	gpgsign = true
+
