@@ -4,6 +4,9 @@
 
 Feel free to explore the repository and get anything you need 😬
 
+### You might be interested in:
+* 🍎[`Brewfile`](.dotres/macos/Brewfile) Contains a list of installed software
+
 ## Initial preparations
 
 - [ ] Update operating system
