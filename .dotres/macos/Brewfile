@@ -90,3 +90,7 @@ cask "sourcetree"
 cask "gpg-suite"
 # Email client focusing on privacy protection
 cask "postbox"
+# Tool to control external monitor brightness & volume
+cask "monitorcontrol"
+# Tool to prevent the system from going into sleep mode
+cask "keepingyouawake"
