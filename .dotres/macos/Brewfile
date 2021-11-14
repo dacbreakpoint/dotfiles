@@ -40,6 +40,8 @@ brew "git"
 brew "hugo"
 # Generate ASCII art with terminal, shell, and OS info
 brew "screenfetch"
+# General-purpose scripting language
+brew "php"
 # Application launcher and productivity software
 cask "alfred"
 # API documentation browser and code snippet manager
