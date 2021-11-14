@@ -49,6 +49,10 @@ sh ~/.dotres/install.sh
   - [ ] Register alfred license key
   - [ ] Remove unnecessary web searches
   - [ ] Create new web searches (npm, maven)
+  - [ ] Install workflows
+    - [ ] Github workflow, see <https://github.com/gharlan/alfred-github-workflow>
+	- [ ] Things 3 integration, see <https://culturedcode.com/things/support/articles/2803574/>
+	- [ ] Language translator, see <https://github.com/alexander-heimbuch/linguee-alfred-workflow>
 - [ ] iTerm2
   - [ ] Register a global hotkey within the iTerm2 settings menu
 - [ ] iStat Menus
