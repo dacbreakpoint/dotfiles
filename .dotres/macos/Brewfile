@@ -96,3 +96,5 @@ cask "postbox"
 cask "monitorcontrol"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
+# Web browser
+cask "firefox"
