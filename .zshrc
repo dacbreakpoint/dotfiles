@@ -20,7 +20,7 @@ plugins=(
   docker
   docker-compose
   nvm
-  osx
+  macos
   ng
   zsh-autosuggestions 
   zsh-completions 
