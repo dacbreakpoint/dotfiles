@@ -53,3 +53,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add homebrew jdk path
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+# Add mysql-client path
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
