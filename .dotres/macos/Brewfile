@@ -42,6 +42,8 @@ brew "hugo"
 brew "screenfetch"
 # General-purpose scripting language
 brew "php"
+# Open source relational database management system client
+brew "mysql-client"
 # Application launcher and productivity software
 cask "alfred"
 # API documentation browser and code snippet manager
@@ -98,3 +100,9 @@ cask "monitorcontrol"
 cask "keepingyouawake"
 # Web browser
 cask "firefox"
+# Server and cloud storage browser
+cask "cyberduck"
+# Disk encryption software focusing on security based on TrueCrypt
+cask "veracrypt"
+#File system integration 
+cask "macfuse"
