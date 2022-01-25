@@ -2,8 +2,10 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "dart-lang/dart"
 
-
+# Dart - client-optimized language for fast apps on any platform
+brew "dart"
 #Terminal file manager
 brew "lf"
 #Open source programming language to build simple/reliable/efficient software
