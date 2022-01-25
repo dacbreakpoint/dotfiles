@@ -46,6 +46,8 @@ brew "screenfetch"
 brew "php"
 # Open source relational database management system client
 brew "mysql-client"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
 # Application launcher and productivity software
 cask "alfred"
 # API documentation browser and code snippet manager
@@ -108,3 +110,5 @@ cask "cyberduck"
 cask "veracrypt"
 #File system integration 
 cask "macfuse"
+# UI toolkit for building applications for mobile, web and desktop
+cask "flutter"
