@@ -64,6 +64,8 @@ brew "notion"
 brew "nextcloud"
 # Collaboration platform for API development
 brew "postman"
+# Run a Kubernetes cluster locally
+brew "minikube"
 # Music streaming service
 cask "spotify"
 # JetBrains tools manager
@@ -110,5 +112,9 @@ cask "cyberduck"
 cask "veracrypt"
 #File system integration 
 cask "macfuse"
+# Screenshot software
+cask "flameshot"
 # UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
+# Collection of apps and services for photography, design, video, web, and UX
+cask "adobe-creative-cloud"
