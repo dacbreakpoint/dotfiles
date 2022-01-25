@@ -33,6 +33,7 @@ sh ~/.dotres/install.sh
 - [ ] Node Version Manager, see <https://github.com/nvm-sh/nvm>
 - [ ] App store installations
   - [ ] Things 3
+  - [ ] Flow - Fokus & Pomodoro Timer
 - [ ] Install global npm packages
   - `@angular/cli`
   - `expo-cli`
