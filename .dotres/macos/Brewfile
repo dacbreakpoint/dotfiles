@@ -4,6 +4,9 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "dart-lang/dart"
 
+
+# Kubernetes package manager
+brew "helm"
 # Dart - client-optimized language for fast apps on any platform
 brew "dart"
 #Terminal file manager
