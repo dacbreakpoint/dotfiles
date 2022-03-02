@@ -36,7 +36,7 @@ brew "tree"
 #GNU Pretty Good Privacy (PGP) package GPG2
 brew "gnupg"
 # Pinentry for GPG on Mac
-brew "pinetry-mac"
+brew "pinentry-mac"
 # Internet file retriever
 brew "wget"
 # Distributed revision control system
