@@ -93,8 +93,6 @@ cask "microsoft-word"
 cask "microsoft-excel"
 # Presentation software
 cask "microsoft-powerpoint"
-# Time tracker
-cask "activitywatch"
 # Open client for Cisco AnyConnect VPN
 cask "openconnect"
 # Graphical client for Git version control
@@ -121,3 +119,9 @@ cask "flameshot"
 cask "flutter"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
+# Memory training application
+cask "anki"
+# Utility to hide menu bar items
+cask "hiddenbar"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"

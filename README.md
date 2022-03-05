@@ -34,6 +34,7 @@ sh ~/.dotres/install.sh
 - [ ] App store installations
   - [ ] Things 3
   - [ ] Flow - Fokus & Pomodoro Timer
+  - [ ] MindNode
 - [ ] Install global npm packages
   - `@angular/cli`
   - `expo-cli`
