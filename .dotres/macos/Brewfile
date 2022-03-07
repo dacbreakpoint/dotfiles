@@ -127,3 +127,5 @@ cask "hiddenbar"
 cask "obsidian"
 # Menu bar icon organizer
 cask "bartender"
+# Menu bar indicator showing the currently selected space
+cask "spaceid"
