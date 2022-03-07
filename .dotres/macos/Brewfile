@@ -125,3 +125,5 @@ cask "anki"
 cask "hiddenbar"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Menu bar icon organizer
+cask "bartender"
