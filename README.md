@@ -35,6 +35,8 @@ sh ~/.dotres/install.sh
   - [ ] Things 3
   - [ ] Flow - Fokus & Pomodoro Timer
   - [ ] MindNode
+  - [ ] Yubico Authenticator
+- [ ] YubiKey Manager <https://www.yubico.com/support/download/yubikey-manager/>
 - [ ] Install global npm packages
   - `@angular/cli`
   - `expo-cli`
