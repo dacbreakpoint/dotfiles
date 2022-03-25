@@ -60,6 +60,8 @@ sh ~/.dotres/install.sh
 - [ ] iTerm2
   - [ ] Register a global hotkey within the iTerm2 settings menu
   - [ ] Keys -> Key Bindings -> Remove "Cycle Tab"-Binding and adapt "Next-/Previous Tab" configuration
+  - [ ] Profiles -> Terminal-Tab -> Silence Bell & Flash visual Bell
+  - [ ] Advanced -> Type "visual bell" -> Enable "Visual bell flashes the whole screen"
 - [ ] iStat Menus
   - [ ] Register license
   - [ ] Configure necessary elements
