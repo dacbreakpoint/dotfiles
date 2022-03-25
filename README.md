@@ -43,6 +43,9 @@ sh ~/.dotres/install.sh
 
 ## Manual configuration steps
 
+- [ ] Apple
+  - [ ]	System Preferences -> Sound -> Disable: "Play sound on startup" and "Play user interface sound effects"
+  - [ ]	Add calendar accounts
 - [ ] SSH configuration
   - [ ] Create a device specific key: `ssh-keygen -t ed25519 -a 100 -C "me@DEVICE`
   - [ ] Copy existing ssh `config` file (for existing host name aliases)
@@ -61,7 +64,7 @@ sh ~/.dotres/install.sh
   - [ ] Register a global hotkey within the iTerm2 settings menu
   - [ ] Keys -> Key Bindings -> Remove "Cycle Tab"-Binding and adapt "Next-/Previous Tab" configuration
   - [ ] Profiles -> Terminal-Tab -> Silence Bell & Flash visual Bell
-  - [ ] Advanced -> Type "visual bell" -> Enable "Visual bell flashes the whole screen"
+  - [ ] Advanced -> Type "visual bell" -> Enable:  "Visual bell flashes the whole screen"
 - [ ] iStat Menus
   - [ ] Register license
   - [ ] Configure necessary elements
