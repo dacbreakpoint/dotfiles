@@ -34,7 +34,9 @@ sh ~/.dotres/install.sh
 - [ ] App store installations
   - [ ] Things 3
   - [ ] Flow - Fokus & Pomodoro Timer
+  - [ ] MeetingBar
   - [ ] MindNode
+  - [ ] Spotica Menu
   - [ ] Yubico Authenticator
 - [ ] YubiKey Manager <https://www.yubico.com/support/download/yubikey-manager/>
 - [ ] Install global npm packages
