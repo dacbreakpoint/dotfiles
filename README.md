@@ -62,6 +62,7 @@ sh ~/.dotres/install.sh
     - [ ] Github workflow, see <https://github.com/gharlan/alfred-github-workflow>
 	- [ ] Things 3 integration, see <https://culturedcode.com/things/support/articles/2803574/>
 	- [ ] Language translator, see <https://github.com/alexander-heimbuch/linguee-alfred-workflow>
+	- [ ] DeepL workflow, see <https://github.com/AlexanderWillner/deepl-alfred-workflow2>
 - [ ] iTerm2
   - [ ] Register a global hotkey within the iTerm2 settings menu
   - [ ] Keys -> Key Bindings -> Remove "Cycle Tab"-Binding and adapt "Next-/Previous Tab" configuration
