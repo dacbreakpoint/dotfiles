@@ -129,3 +129,5 @@ cask "obsidian"
 cask "bartender"
 # Menu bar indicator showing the currently selected space
 cask "spaceid"
+# Transfer files from and to an Android smartphone
+cask "android-file-transfer"
