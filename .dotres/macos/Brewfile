@@ -131,3 +131,5 @@ cask "bartender"
 cask "spaceid"
 # Transfer files from and to an Android smartphone
 cask "android-file-transfer"
+# Prevents your sleeping computer from connecting to Bluetooth accessories
+cask "bluesnooze"
