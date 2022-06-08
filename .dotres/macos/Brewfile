@@ -121,14 +121,10 @@ cask "flutter"
 cask "adobe-creative-cloud"
 # Memory training application
 cask "anki"
-# Utility to hide menu bar items
-cask "hiddenbar"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Menu bar icon organizer
 cask "bartender"
-# Menu bar indicator showing the currently selected space
-cask "spaceid"
 # Transfer files from and to an Android smartphone
 cask "android-file-transfer"
 # Prevents your sleeping computer from connecting to Bluetooth accessories
