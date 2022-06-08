@@ -129,3 +129,5 @@ cask "bartender"
 cask "android-file-transfer"
 # Prevents your sleeping computer from connecting to Bluetooth accessories
 cask "bluesnooze"
+# Tools for the WireGuard secure network tunnel
+cask "wireguard-tools"
