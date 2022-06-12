@@ -73,6 +73,9 @@ sh ~/.dotres/install.sh
   - [ ] Configure necessary elements
 - [ ] KeePassXC
   - [ ] General -> Basic Settings -> Entry Management -> "Hide windows when copying to clipboard"
+- [ ] MindNote
+  - [ ] Settings -> Default Document Format -> "Single File"
+
 ## ToDos
 
 - [ ] Configuration of yabai and skhd, see <https://blog.dsubachev.com/install-a-tiling-window-manager-on-your-mac/> and yabai examples <https://github.com/koekeishiya/yabai/tree/master/examples>
