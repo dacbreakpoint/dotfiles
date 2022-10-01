@@ -47,6 +47,7 @@ sh ~/.dotres/install.sh
 
 - [ ] Apple
   - [ ]	System Preferences -> Sound -> Disable: "Play sound on startup" and "Play user interface sound effects"
+  - [ ]	System Preferences -> Dock & Menue Bar -> Disable: "Animate opening applications"
   - [ ]	Add calendar accounts
 - [ ] SSH configuration
   - [ ] Create a device specific key: `ssh-keygen -t ed25519 -a 100 -C "me@DEVICE`
