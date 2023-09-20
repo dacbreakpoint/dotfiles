@@ -131,3 +131,9 @@ cask "android-file-transfer"
 cask "bluesnooze"
 # Tools for the WireGuard secure network tunnel
 cask "wireguard-tools"
+# Productivity app. Drag files to share easily
+cask "dropzone"
+# Customize mouse behavior
+cask "linearmouse"
+# Allows switching between application windows
+cask "contexts"
