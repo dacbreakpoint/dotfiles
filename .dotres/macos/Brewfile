@@ -69,6 +69,8 @@ brew "nextcloud"
 brew "postman"
 # Run a Kubernetes cluster locally
 brew "minikube"
+# NCurses Disk Usage
+brew "ncdu"
 # Music streaming service
 cask "spotify"
 # JetBrains tools manager
