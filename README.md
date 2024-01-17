@@ -72,6 +72,8 @@ sh ~/.dotres/install.sh
 - [ ] iStat Menus
   - [ ] Register license
   - [ ] Configure necessary elements
+- [ ] Finder
+  - [ ] Right-click on the top toolbar -> Customize Toolbar -> 1) Remove Tags, 2) Add New Folder
 - [ ] KeePassXC
   - [ ] General -> Basic Settings -> Entry Management -> "Hide windows when copying to clipboard"
 - [ ] MindNote
