@@ -139,3 +139,5 @@ cask "dropzone"
 cask "linearmouse"
 # Allows switching between application windows
 cask "contexts"
+# Rust-based terminal
+cask "warp"
