@@ -141,3 +141,5 @@ cask "linearmouse"
 cask "contexts"
 # Rust-based terminal
 cask "warp"
+# GUI for streamlined Redis application development
+cask "redisinsight"
