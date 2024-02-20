@@ -143,3 +143,5 @@ cask "contexts"
 cask "warp"
 # GUI for streamlined Redis application development
 cask "redisinsight"
+# Application for generating TOTP and HOTP codes
+cask "yubico-authenticator"
