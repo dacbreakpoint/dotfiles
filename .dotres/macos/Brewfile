@@ -71,6 +71,10 @@ brew "postman"
 brew "minikube"
 # NCurses Disk Usage
 brew "ncdu"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # Music streaming service
 cask "spotify"
 # JetBrains tools manager
