@@ -149,3 +149,5 @@ cask "warp"
 cask "redisinsight"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
+# Find shortcuts for any installed application
+cask "keyclu"
