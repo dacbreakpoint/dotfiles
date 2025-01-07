@@ -151,3 +151,5 @@ cask "redisinsight"
 cask "yubico-authenticator"
 # Find shortcuts for any installed application
 cask "keyclu"
+# Memory training application
+cask "anki"
