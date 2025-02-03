@@ -12,6 +12,7 @@ Feel free to explore the repository and get anything you need 😬
 - [ ] Update operating system
 - [ ] Install xcode `xcode-select --install`
 - [ ] Install homebrew, see <https://brew.sh/>
+- [ ] System Preferences -> Privacy & Security -> FileVault: turn on
 
 ## Installation
 
