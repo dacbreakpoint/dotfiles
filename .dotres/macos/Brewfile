@@ -71,7 +71,7 @@ cask "1password"
 #Securely store and access AWS credentials in development environment
 brew "aws-vault"
 # Desktop sync client for Nextcloud software products
-brew "nextcloud"
+cask "nextcloud"
 # Music streaming service
 cask "spotify"
 # Multimedia player
