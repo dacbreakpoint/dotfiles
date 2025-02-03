@@ -3,10 +3,12 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "dart-lang/dart"
+tap "hashicorp/tap"
 
 
-# Kubernetes package manager
-brew "helm"
+##########################
+# TERMINAL APPLICATIONS
+##########################
 # Dart - client-optimized language for fast apps on any platform
 brew "dart"
 #Terminal file manager
@@ -15,28 +17,12 @@ brew "lf"
 brew "go"
 # GNU grep, egrep and fgrep
 brew "grep"
-# OpenBSD freely-licensed SSH connectivity tools
-brew "openssh"
-# Terminal multiplexer with VT100/ANSI terminal emulation
-brew "screen"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg"
-# Sound clear in online meetings
-cask "krisp"
-# Java-based project management
-brew "maven"
-# Development kit for the Java programming language
-brew "openjdk"
-# Improved top (interactive process viewer)
-brew "htop"
-# Simplified and community-driven man pages
-brew "tldr"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
-#GNU Pretty Good Privacy (PGP) package GPG2
-brew "gnupg"
-# Pinentry for GPG on Mac
-brew "pinentry-mac"
+# NCurses Disk Usage
+brew "ncdu"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
 # Internet file retriever
 brew "wget"
 # Distributed revision control system
@@ -45,103 +31,201 @@ brew "git"
 brew "hugo"
 # Generate ASCII art with terminal, shell, and OS info
 brew "screenfetch"
-# General-purpose scripting language
-brew "php"
-# Open source relational database management system client
-brew "mysql-client"
-# Dependency manager for Cocoa projects
-brew "cocoapods"
-# Application launcher and productivity software
-cask "alfred"
-# API documentation browser and code snippet manager
-cask "dash"
-# Voice and text chat software
-cask "discord"
-# Imaging utility to install operating systems to a microSD card
-cask "raspberry-pi-imager"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
-# App to write, plan, collaborate, and get organized
-brew "notion"
-# Desktop sync client for Nextcloud software products
-brew "nextcloud"
-# Collaboration platform for API development
-brew "postman"
-# Run a Kubernetes cluster locally
-brew "minikube"
-# NCurses Disk Usage
-brew "ncdu"
-# Lightweight and flexible command-line JSON processor
-brew "jq"
-# Executes a program periodically, showing output fullscreen
-brew "watch"
-# Music streaming service
-cask "spotify"
-# JetBrains tools manager
-cask "jetbrains-toolbox"
-# System monitoring app
-cask "istat-menus"
+# OpenBSD freely-licensed SSH connectivity tools
+brew "openssh"
+# Terminal multiplexer with VT100/ANSI terminal emulation
+brew "screen"
+#Terminal multiplexer
+brew "tmux"
+#Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
+#Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+
+
+##########################
+# BASE SETUP
+##########################
+#Client for the Google Drive storage service
+cask "google-drive"
+#OpenVPN client
+cask "pritunl"
 # Team communication and collaboration software
 cask "slack"
-# Open-source code editor
-cask "visual-studio-code"
-# Multimedia player
-cask "vlc"
-# Video communication and virtual meeting platform
-cask "zoom"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+#Calendar software
+cask "fantastical"
 # Password manager app
 cask "keepassxc"
-# Meet, chat, call, and collaborate in just one place
-cask "microsoft-teams"
-# Word processor
-cask "microsoft-word"
-# Spreadsheet software
-cask "microsoft-excel"
-# Presentation software
-cask "microsoft-powerpoint"
-# Open client for Cisco AnyConnect VPN
-cask "openconnect"
-# Graphical client for Git version control
-cask "sourcetree"
-# Tools to protect your emails and files
-cask "gpg-suite"
+#To-do & task list manager
+cask "ticktick"
+#Application for generating TOTP and HOTP codes
+cask "yubico-authenticator"
+#Shows the next meeting in the menu bar
+cask "meetingbar"
+# Open-source code editor
+cask "visual-studio-code"
+#Password manager that keeps all passwords secure behind one password
+cask "1password"
+#Securely store and access AWS credentials in development environment
+brew "aws-vault"
+# Desktop sync client for Nextcloud software products
+brew "nextcloud"
+# Music streaming service
+cask "spotify"
+# Multimedia player
+cask "vlc"
+# Simplified and community-driven man pages
+brew "tldr"
+# Improved top (interactive process viewer)
+brew "htop"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+#GNU Pretty Good Privacy (PGP) package GPG2
+brew "gnupg"
+# Java-based project management
+brew "maven"
+#Email client
+cask "emclient"
+
+
+##########################
+# System Tools
+##########################
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
-# Web browser
-cask "firefox"
-# Server and cloud storage browser
-cask "cyberduck"
-# Disk encryption software focusing on security based on TrueCrypt
-cask "veracrypt"
-#File system integration 
-cask "macfuse"
-# Screenshot software
-cask "flameshot"
-# UI toolkit for building applications for mobile, web and desktop
-cask "flutter"
-# Collection of apps and services for photography, design, video, web, and UX
-cask "adobe-creative-cloud"
-# Memory training application
-cask "anki"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
-# Menu bar icon organizer
-cask "bartender"
-# Transfer files from and to an Android smartphone
-cask "android-file-transfer"
-# Prevents your sleeping computer from connecting to Bluetooth accessories
-cask "bluesnooze"
-# Tools for the WireGuard secure network tunnel
-cask "wireguard-tools"
-# Productivity app. Drag files to share easily
-cask "dropzone"
-# Customize mouse behavior
-cask "linearmouse"
 # Allows switching between application windows
 cask "contexts"
+#Screen capturing tool
+cask "cleanshot"
+#Menu bar manager
+cask "jordanbaird-ice"
+# Prevents your sleeping computer from connecting to Bluetooth accessories
+cask "bluesnooze"
+# Display management tool
+cask "betterdisplay"
+# Application launcher and productivity software
+cask "alfred"
+# Productivity app. Drag files to share easily
+cask "dropzone"
+# Customize mouse behaviour
+cask "linearmouse"
+#Emoji picker optimised for blind people
+cask "rocket"
+# System monitoring app
+cask "istat-menus"
+# Disk encryption software focusing on security based on TrueCrypt
+cask "veracrypt"
+# Tools for the WireGuard secure network tunnel
+cask "wireguard-tools"
+# Transfer files from and to an Android smartphone
+cask "android-file-transfer"
+# Tool for managing your YubiKey configuration
+brew "ykman"
+#Easiest, most secure way to use WireGuard and 2FA
+brew "tailscale"
+#Keyboard customiser
+cask "karabiner-elements"
+#Screen and video recording software
+cask "loom"
+#Modern GUI for Redis
+cask "media"
+
+
+##########################
+# KNOWLEDGE MANAGEMENT
+##########################
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# App to write, plan, collaborate, and get organized
+brew "notion"
+# Memory training application
+cask "anki"
+
+
+##########################
+# CODING
+##########################
+# Open source relational database management system client
+brew "mysql-client"
+#Kubernetes command-line interface
+brew "kubernetes-cli"
+# Kubernetes package manager
+brew "helm"
 # Rust-based terminal
 cask "warp"
+#All-in-one bookmark manager
+cask "raindropio"
+#Administration and development platform for PostgreSQL
+cask "pgadmin4"
+#Collaboration platform for API development
+cask "postman"
+#Opensource IDE for exploring and testing api's
+cask "bruno"
+#All-in-One Java Troubleshooting Tool
+cask "visualvm"
 # GUI for streamlined Redis application development
 cask "redisinsight"
-# Application for generating TOTP and HOTP codes
-cask "yubico-authenticator"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Web browser
+cask "firefox"
+#Persistent key-value database, with built-in net interface
+brew "redis"
+#Columnar in-memory analytics layer designed to accelerate big data
+brew "apache-arrow"
+#Embeddable SQL OLAP Database Management System
+brew "duckdb"
+#Load testing and performance measurement application
+brew "jmeter"
+#OpenStreetMap data to PostgreSQL converter
+brew "osm2pgsql"
+# Terraform
+brew "hashicorp/tap/terraform"
+#Distribution of the Python and R programming languages for scientific computing
+cask "anaconda"
+#Visual tool to design, develop and administer MySQL servers
+cask "mysqlworkbench"
+#Kubernetes and container management on the desktop
+cask "rancher"
+#GUI for streamlined Redis application development
+cask "redis-insight"
+#Multiplayer code editor
+cask "zed"
+
+
+##########################
+# AI-TOOLS
+##########################
+#Desktop app for GPT-4 / GPT-3.5 (OpenAI API)
+cask "chatbox"
+#OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+
+
+##########################
+# Misc and large
+##########################
+# Free and open-source image editor
+cask "gimp"
+# Collection of apps and services for photography, design, video, web, and UX
+cask "adobe-creative-cloud"
+# Voice and text chat software
+cask "discord"
+# Sound clear in online meetings
+cask "krisp"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+#Perl lib for reading and writing EXIF metadata
+brew "exiftool"
+#Backup GMail (or other IMAP) accounts to disk
+brew "imap-backup"
+#Geographic Information System
+brew "qgis"
+#Sync and backup service to Synology NAS drives
+cask "synology-drive"
+#Remote access and connectivity software focused on security
+cask "teamviewer"
