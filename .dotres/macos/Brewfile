@@ -130,7 +130,7 @@ cask "karabiner-elements"
 #Screen and video recording software
 cask "loom"
 #Modern GUI for Redis
-cask "media"
+cask "medis"
 
 
 ##########################
