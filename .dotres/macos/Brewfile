@@ -118,7 +118,7 @@ cask "istat-menus"
 # Disk encryption software focusing on security based on TrueCrypt
 cask "veracrypt"
 # Tools for the WireGuard secure network tunnel
-cask "wireguard-tools"
+brew "wireguard-tools"
 # Transfer files from and to an Android smartphone
 cask "android-file-transfer"
 # Tool for managing your YubiKey configuration
