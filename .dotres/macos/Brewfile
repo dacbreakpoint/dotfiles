@@ -105,10 +105,6 @@ cask "openconnect"
 cask "sourcetree"
 # Tools to protect your emails and files
 cask "gpg-suite"
-# Email client focusing on privacy protection
-cask "postbox"
-# Tool to control external monitor brightness & volume
-cask "monitorcontrol"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # Web browser
@@ -149,7 +145,3 @@ cask "warp"
 cask "redisinsight"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
-# Find shortcuts for any installed application
-cask "keyclu"
-# Memory training application
-cask "anki"
