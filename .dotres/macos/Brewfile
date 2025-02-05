@@ -109,6 +109,8 @@ cask "jordanbaird-ice"
 cask "bluesnooze"
 # Display management tool
 cask "betterdisplay"
+#Utility improving 3rd party mouse performance and functionalities
+cask "bettermouse"
 # Application launcher and productivity software
 cask "alfred"
 # Productivity app. Drag files to share easily
