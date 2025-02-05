@@ -70,6 +70,10 @@ cask "visual-studio-code"
 cask "1password"
 #Securely store and access AWS credentials in development environment
 brew "aws-vault"
+#Official Amazon AWS command-line interface
+brew "awscli"
+#Use AWS IAM credentials to authenticate to Kubernetes
+brew "aws-iam-authenticator"
 # Desktop sync client for Nextcloud software products
 cask "nextcloud"
 # Music streaming service
@@ -131,6 +135,8 @@ cask "karabiner-elements"
 cask "loom"
 #Modern GUI for Redis
 cask "medis"
+#Tools to protect your emails and files
+cask "gpg-suite"
 
 
 ##########################
