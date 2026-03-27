@@ -17,6 +17,8 @@ brew "dart"
 brew "fd"
 # Monitor a directory for changes and trigger actions
 brew "fswatch"
+# Command-line fuzzy finder
+brew "fzf"
 # Distributed revision control system
 brew "git"
 #Open source programming language to build simple/reliable/efficient software
@@ -29,6 +31,8 @@ brew "hugo"
 brew "iperf3"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Handy way to save and run project-specific commands
+brew "just"
 #Terminal file manager
 brew "lf"
 # Mac App Store command-line interface
@@ -57,6 +61,8 @@ brew "watch"
 brew "wget"
 # Process YAML, JSON, XML documents from CLI
 brew "yq"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 
 ##########################
 # BASE SETUP
@@ -141,6 +147,8 @@ cask "bluesnooze"
 cask "cleanshot"
 # Productivity app. Drag files to share easily
 cask "dropzone"
+# Night shift alternative
+cask "flux-app"
 #Tools to protect your emails and files
 cask "gpg-suite"
 # System monitoring app
@@ -158,7 +166,10 @@ cask "loom"
 #Modern GUI for Redis
 cask "medis"
 # Spotlight replacement and launcher
+# Application launcher and productivity software
 cask "raycast"
+# Menu bar customization tool
+cask "swiftbar"
 # Disk encryption software focusing on security based on TrueCrypt
 cask "veracrypt"
 
@@ -170,6 +181,8 @@ cask "veracrypt"
 brew "notion"
 # Memory training application
 cask "anki"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 
@@ -197,6 +210,8 @@ brew "duckdb"
 brew "gcc"
 # GitHub CLI
 brew "gh"
+# Detect secrets in code
+brew "gitleaks"
 # Build automation tool for Java
 brew "gradle"
 # Terraform
@@ -211,10 +226,20 @@ brew "kubectx"
 brew "kubernetes-cli"
 # Kubernetes configuration customization
 brew "kustomize"
+# LLVM compiler infrastructure
+brew "llvm"
 # Open source relational database management system client
 brew "mysql-client"
+# Platform built on V8 to build network applications
+brew "node"
 #OpenStreetMap data to PostgreSQL converter
 brew "osm2pgsql"
+# Python version management
+brew "pyenv"
+# Container runtime
+brew "podman"
+# Object-relational database system
+brew "postgresql@17"
 #Persistent key-value database, with built-in net interface
 brew "redis"
 # Read-only API server for various data formats
@@ -225,10 +250,14 @@ brew "ruby"
 brew "rust"
 # Fast Python package installer (uv)
 brew "uv"
+# Xcode project file generator
+brew "xcodegen"
 #Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
 # Web browser
 cask "firefox"
+# GPU-accelerated terminal emulator
+cask "ghostty"
 # Open source API development platform
 cask "hoppscotch"
 #Visual tool to design, develop and administer MySQL servers
@@ -254,6 +283,12 @@ cask "zed"
 ##########################
 # AI-TOOLS
 ##########################
+# AI-powered fabric tool
+brew "fabric-ai"
+# Google Gemini CLI
+brew "gemini-cli"
+# Large language model runner
+brew "ollama"
 # Desktop app for ChatGPT
 cask "chatbox"
 # OpenAI's official ChatGPT desktop app
@@ -264,6 +299,12 @@ cask "claude"
 ##########################
 # Misc and large
 ##########################
+# Deduplicating archiver with compression
+brew "borgbackup"
+# Fast, cross-platform HTTP/2 web server
+brew "caddy"
+# Extensible text editor
+brew "emacs"
 #Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # Play, record, convert, and stream audio and video
@@ -274,6 +315,12 @@ brew "imagemagick"
 brew "imap-backup"
 #Geographic Information System
 brew "qgis"
+# Universal document converter
+brew "pandoc"
+# Pipe viewer for monitoring data through a pipeline
+brew "pv"
+# Password generator
+brew "pwgen"
 # YouTube video downloader
 brew "yt-dlp"
 # 1Password command-line tool
@@ -282,14 +329,24 @@ cask "1password-cli"
 cask "adobe-creative-cloud"
 # Battery charge limiter
 cask "aldente"
+# Audio editor
+cask "audacity"
 # USB/SD card image flasher
 cask "balenaetcher"
+# Web browser focusing on privacy
+cask "brave-browser"
 # Screen recording and sharing
 cask "cap"
+# FTP/SFTP client
+cask "cyberduck"
 # Voice and text chat software
 cask "discord"
 # Free and open-source image editor
 cask "gimp"
+# Writing assistant
+cask "grammarly-desktop"
+# Download manager
+cask "jdownloader"
 # Sound clear in online meetings
 cask "krisp"
 # FUSE filesystem support
@@ -298,5 +355,15 @@ cask "macfuse"
 cask "notion"
 #Sync and backup service to Synology NAS drives
 cask "synology-drive"
+# RSS reader
+cask "reader"
+# Remote desktop
+cask "rustdesk"
+# AWS Session Manager Plugin
+cask "session-manager-plugin"
+# SSHFS support via FUSE
+cask "sshfs-mac"
 #Remote access and connectivity software focused on security
 cask "teamviewer"
+# Video communication
+cask "zoom"
