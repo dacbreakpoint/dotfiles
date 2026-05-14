@@ -154,7 +154,7 @@ cask "gpg-suite"
 # System monitoring app
 cask "istat-menus"
 #Menu bar manager
-cask "jordanbaird-ice"
+cask "thaw"
 #Keyboard customiser
 cask "karabiner-elements"
 # Tool to prevent the system from going into sleep mode
